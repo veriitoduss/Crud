@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}"
+             x:Class="crud.agregar">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Frame BackgroundColor="#9F65FC" BorderColor="Black" Grid.Row="0">
+
+                    <StackLayout>
+                        <Label Text="nombre usuario" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center"
+                                   TextColor="White"/>
+
+                        <Entry Placeholder="digite el nombre" FontSize="15" x:Name="nombre_usuario"/>
+
+                        <Label Text="telefono" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center"
+                                   TextColor="White"/>
+
+                        <Entry Placeholder="digite el telefono" FontSize="15" x:Name="telefono"/>
+
+                        <Label Text="correo electronico" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center"
+                                   TextColor="White"/>
+
+                        <Entry Placeholder="digite el correo electronico" FontSize="15" x:Name="correo_electronico"/>
+
+                        <Button Text="GUARDAR" FontSize="15" TextColor="White" x:Name="btnguardar"
+                                Clicked="btnguardar_Clicked"/>
+
+                    </StackLayout>
+                </Frame>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

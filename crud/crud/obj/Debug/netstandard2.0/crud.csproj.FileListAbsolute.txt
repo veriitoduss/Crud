@@ -1,0 +1,15 @@
+C:\Users\veanm\Documents\NENA\crud\crud\crud\bin\Debug\netstandard2.0\crud.deps.json
+C:\Users\veanm\Documents\NENA\crud\crud\crud\bin\Debug\netstandard2.0\crud.dll
+C:\Users\veanm\Documents\NENA\crud\crud\crud\obj\Debug\netstandard2.0\crud.csprojAssemblyReference.cache
+C:\Users\veanm\Documents\NENA\crud\crud\crud\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\veanm\Documents\NENA\crud\crud\crud\obj\Debug\netstandard2.0\crud.AssemblyInfoInputs.cache
+C:\Users\veanm\Documents\NENA\crud\crud\crud\obj\Debug\netstandard2.0\crud.AssemblyInfo.cs
+C:\Users\veanm\Documents\NENA\crud\crud\crud\obj\Debug\netstandard2.0\crud.csproj.CoreCompileInputs.cache
+C:\Users\veanm\Documents\NENA\crud\crud\crud\bin\Debug\netstandard2.0\ref\crud.dll
+C:\Users\veanm\Documents\NENA\crud\crud\crud\bin\Debug\netstandard2.0\crud.pdb
+C:\Users\veanm\Documents\NENA\crud\crud\crud\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\veanm\Documents\NENA\crud\crud\crud\obj\Debug\netstandard2.0\crud.dll
+C:\Users\veanm\Documents\NENA\crud\crud\crud\obj\Debug\netstandard2.0\ref\crud.dll
+C:\Users\veanm\Documents\NENA\crud\crud\crud\obj\Debug\netstandard2.0\crud.pdb
+C:\Users\veanm\Documents\NENA\crud\crud\crud\obj\Debug\netstandard2.0\Views\inicioPage.xaml.g.cs
+C:\Users\veanm\Documents\NENA\crud\crud\crud\obj\Debug\netstandard2.0\Views\agregarPage.xaml.g.cs

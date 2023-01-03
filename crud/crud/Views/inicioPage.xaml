@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="crud.inicio">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="#D2B6FE">
+            <Grid RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <ListView x:Name="listarusuarios" Grid.Row="2">
+                    <ListView.ItemTemplate>
+                        <DataTemplate >
+                            <ViewCell  >
+                                <Frame BackgroundColor="Transparent" CornerRadius="60" BorderColor="Black">
+                                    <StackLayout >
+                                        <Label Text="NOMBRE DEL USUARIO" FontAttributes="Bold"
+                                               FontSize = "25" HorizontalTextAlignment="Center" />
+                                        <Label Text="{Binding nombre_usuario}" HorizontalTextAlignment="Center"
+                                               FontSize = "20"  />
+                                        <Label Text="TELEFONO DEL USUARIO" FontAttributes="Bold"
+                                               FontSize = "25"  HorizontalTextAlignment="Center"/>
+                                        <Label Text="{Binding telefono}" HorizontalTextAlignment="Center"
+                                               FontSize = "20"/>
+                                        <Label Text="CORREO DEL USUARIO" FontAttributes="Bold"
+                                               FontSize = "25" HorizontalTextAlignment="Center"/>
+                                        <Label Text="{Binding correo_electronico}" HorizontalTextAlignment="Center"
+                                               FontSize = "20"/>                                        
+                                        <Button Text="ELIMINAR" BackgroundColor="Red" CornerRadius="25" FontSize = "15"/>
+                                        <Button Text="MODIFICAR" BackgroundColor="Green" CornerRadius="25" FontSize = "15" />
+                                    </StackLayout>
+                                </Frame>
+
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Button Text="AGREGAR" BackgroundColor="#40059E" CornerRadius="25" FontSize = "20"
+                        Grid.Row="1" TextColor="White" x:Name="btnagregar" Clicked="btnagregar_Clicked"/>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

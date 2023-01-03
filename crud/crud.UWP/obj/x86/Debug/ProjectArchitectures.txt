@@ -1,0 +1,1 @@
+C:\Users\veanm\Documents\NENA\crud\crud\crud.UWP\crud.UWP.csproj;x86
